@@ -1,4 +1,6 @@
-# Model Configuration
-model_type: logistic_regression
-test_size: 0.2
-random_state: 42
+# Model Configuration 
+model_type: random_forest 
+n_estimators: 100 
+test_size: 0.25 
+random_state: 42 
+scoring_metric: f1_score 

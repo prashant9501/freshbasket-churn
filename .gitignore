@@ -1,0 +1,50 @@
+# Data files 
+data/ 
+*.csv 
+*.parquet 
+*.xlsx 
+*.json 
+!config/*.json 
+  
+# Model artifacts 
+models/ 
+*.pkl 
+*.joblib 
+*.h5 
+*.pt 
+*.onnx 
+  
+# Python environment 
+venv/ 
+env/ 
+__pycache__/ 
+*.pyc 
+*.pyo 
+.Python 
+  
+# Jupyter 
+.ipynb_checkpoints/ 
+  
+# IDE 
+.vscode/ 
+.idea/ 
+*.swp 
+  
+# Secrets 
+.env 
+*.pem 
+*.key 
+credentials.json 
+secrets.yaml 
+  
+# OS 
+.DS_Store 
+Thumbs.db 
+  
+# MLflow 
+mlruns/ 
+mlartifacts/ 
+
+# Logs 
+*.log 
+logs/ 
